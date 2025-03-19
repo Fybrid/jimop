@@ -1,0 +1,57 @@
+html {
+	height: 100%
+}
+
+body {
+	height: 100%;
+	background-color: hsl(60, 100%, 74%);
+	background-image: linear-gradient(45deg, rgba(255, 165, 0, 0.3) 25%, transparent 25%, transparent 50%, rgba(255, 165, 0, 0.3) 50%, rgba(255, 165, 0, 0.3) 75%, transparent 75%, transparent);
+}
+
+header {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+
+}
+
+.title_container {
+	display: flex;
+	justify-content: center;
+	background-color: #3fe0d0e6;
+	border: 3px #96c2fe;
+	color: #ffff00;
+
+	img {
+		width: 40px;
+	}
+}
+
+/* .title_logo {
+	position: sticky;
+	top: 0;
+} */
+
+.map_heading {
+	color: #3fe0d0;
+	text-align: center;
+}
+
+.container {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: -440px;
+}
+
+.map {
+	height: 50%;
+	width: 75%;
+}
+
+.button_area {
+	display: flex;
+	justify-content: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}

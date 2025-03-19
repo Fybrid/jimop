@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>jimop</title>
+
+  <script src=""></script>
+
+  <link rel="stylesheet" href="../css/style.css" type="text/css">
+</head>
+
+<body>
+  <header>
+    <div class="title_container">
+      <h1 class=" title_logo">
+        <img src="../image/flower1.png" alt="">
+        Ji Mop
+        <img src="../image/flower1.png" alt="">
+      </h1>
+    </div>
+  </header>
+  <div class="map_heading">
+    <h2>みんなのマップ</h2>
+  </div>
+  <div class="container">
+    <div class="map" id="map2"></div>
+  </div>
+  <div class="map_heading">
+    <h2>好きな場所にピンをたてよう！</h2>
+  </div>
+  <div class="container">
+    <div class="map" id="map"></div>
+  </div>
+  <div class="button_area">
+    <input class="button" type="button" value="送信" id="button" onclick="sendLatLng();showAlert()">
+  </div>
+  <ul hidden>
+    <li>lat: <span id="lat"></span></li>
+    <li>lng: <span id="lng"></span></li>
+  </ul>
+
+  <script src="../js/index.js"></script>
+</body>
+
+</html>
